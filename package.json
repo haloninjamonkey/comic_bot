@@ -1,0 +1,14 @@
+{
+  "name": "hiworld",
+  "version": "1.0.0",
+  "description": "Slackbot work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Duff",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^2.0.6"
+  }
+}
