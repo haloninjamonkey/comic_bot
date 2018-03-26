@@ -4,7 +4,7 @@ const RtmClient = require('@slack/client').RtmClient;
 const MemoryDataStore = require('@slack/client').MemoryDataStore;
 const RTM_EVENTS = require('@slack/client').RTM_EVENTS;
 const CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS;
-const token = 'xoxb-333237495077-nxUFpLFsoltDyqeKJOtWCFAF';
+const token = require('./botToken.js').token;
 
 let slack = new RtmClient(token, {
  logLevel: 'error',
